@@ -105,8 +105,9 @@ summary of the backup schedule is provided in the table below.
 
 If disaster strikes and you need access to a previous version of your
 `/home` or `/projects` directories, change to that directory and look
-through the .snapshot subdirectory. You will see a subdirectory
-associated with each snapshot of your `/home` or `/projects`
+through the .snapshot subdirectory. You will not be able to see the .snapshot
+directory via `ls -a` but it is there. Once you have changed directory to the snapshot directory
+you will see subdirectories associated with each snapshot of your `/home` or `/projects`
 directory, named using the time-stamp associated with the snapshot.
 
 ### Workspace Sharing
